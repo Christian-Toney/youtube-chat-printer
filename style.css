@@ -1,0 +1,48 @@
+body {
+  font-family: "Alata", Arial;
+}
+
+#message-list-container {
+  position: relative;
+  width: 550px;
+  height: 300px;
+  overflow: hidden;
+}
+
+#message-list {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  text-shadow: 2px 2px 0px orange;
+  position: absolute;
+  width: 100%;
+}
+
+#message-list div {
+  padding-top: 10px;
+  width: 100%;
+}
+
+#message-list div span {
+  font-weight: normal;
+}
+
+.owner {
+  background: orange;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  padding-bottom: 10px;
+  color: white;
+  text-shadow: 2px 2px 0px black;
+}
+
+.mod {
+  background: #568ddb;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  padding-bottom: 10px;
+  color: white;
+  text-shadow: 2px 2px 0px black;
+}
